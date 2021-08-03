@@ -5,3 +5,9 @@
 .mt-nav {
   margin-top: 75px; // shift content from navbar height
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}

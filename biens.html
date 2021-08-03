@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    {% for bien in site.biens %}
+      <div class="col">
+        <a href="{{ bien.url }}">
+          {{ bien.title }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+

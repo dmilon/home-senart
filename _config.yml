@@ -53,3 +53,8 @@
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+collections:
+  biens:
+    sort_by: id
+    output: true
+    permalink: /bien/:name
