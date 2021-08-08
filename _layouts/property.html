@@ -3,30 +3,74 @@ layout: default
 ---
 
 <div class="container">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      {% for image in page.images %}
-        <div class="carousel-item {% if forloop.first %} active {% endif %}">
-          <img src="/assets/images/{{ image.src }}.jpg" class="d-block w-100" alt="{{ image.alt }}">
+  <div class="row py-3">
+    <div class="col-12 col-lg-8">
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
         </div>
-      {% endfor %}
+        <div class="carousel-inner">
+          {% for image in page.images %}
+            <div class="carousel-item {% if forloop.first %} active {% endif %}">
+              <img src="/assets/images/{{ image.src }}.jpg" class="d-block w-100" alt="{{ image.alt }}">
+            </div>
+          {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- title -->
+      <h1>{{page.title}}</h1>
+
+      <!-- features -->
+      <div class="grid">
+        <p>Pièces : {{page.room}}</p>
+        <p>Superficie : {{page.area}}</p>
+        <p>Prix : {{page.price}}</p>
+        <p>Ville : {{page.city}}</p>
+        <p>Type : {{page.type}}</p>
+        <p>Terrain : {{page.land_area}}</p>
+      </div>
+
+      <!-- description -->
+      {{content}}
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+
+    <div class="col-12 col-lg-4">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mleapvey" method="post" class="border p-3 rounded">
+        <h2>Contactez-nous</h2>
+        <fieldset id="fs-frm-inputs">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" name="name" id="name" placeholder="Jean Dupond" required="" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="_replyto" id="email" placeholder="jean.dupond@gmail.com" required="" class="form-control">
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea rows="3" name="message" id="message" placeholder="Bonjour, je souhaiterais visiter ce bien..." required="" class="form-control"></textarea>
+          </div>
+          <input type="hidden" name="_subject" id="email-subject" value="Nouveau message concernant {{page.title}}">
+          <input type="hidden" name="page" value="{{page.id}}">
+        </fieldset>
+        <input type="submit" value="Envoyer" class="btn btn-primary mb-3 w-100">
+        <!-- <button type="submit" class="btn btn-primary mb-3 w-100">Envoyer</button> -->
+      </form>
+    </div>
   </div>
-
-  <h1>{{page.title}}</h1>
-
-  <p>{{content}}</p>
 </div>
