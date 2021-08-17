@@ -37,12 +37,13 @@ layout: default
 
       <!-- features -->
       <div class="grid">
-        <p>Pièces : {{page.room}}</p>
-        <p>Superficie : {{page.area}}</p>
-        <p>Prix : {{page.price}}</p>
+        <p><img src="/assets/images/room.svg" width=15>Pièces : {{page.room}}</p>
+        <p><img src="/assets/images/area.svg" width=15>Superficie : {{page.area}}</p>
+        <p><i class="fas fa-euro-sign"></i>Prix : {{page.price}}</p>
         <p>Ville : {{page.city}}</p>
-        <p>Type : {{page.type}}</p>
-        <p>Terrain : {{page.land_area}}</p>
+        <!-- TODO <i class="fas fa-home"></i> if home <i class="fas fa-building"> if appartment and other for terrain -->
+        <p><i class="fas fa-building"></i>Type : {{page.type}}</p>
+        <p><img src="/assets/images/area.svg" width=15>Terrain : {{page.land_area}}</p>
       </div>
 
       <!-- description -->
