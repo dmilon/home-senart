@@ -8,16 +8,32 @@ price: 269_000
 city: Quincy-sous-Sénart
 type: Maison
 images:
-  - src: flat_lounge
+  - src: quincy_1
+    alt: jardin
+  - src: quincy_2
     alt: salon
-  - src: flat_bedroom
-    alt: chambre
-  - src: flat_bathroom
+  - src: quincy_3
+    alt: salle à manger
+  - src: quincy_4
+    alt: cuisine
+  - src: quincy_5
+    alt: chambre 1
+  - src: quincy_6
+    alt: chambre 2
+  - src: quincy_7
+    alt: chambre 3
+  - src: quincy_8
     alt: salle de bain
+  - src: quincy_9
+    alt: jardin
+  - src: quincy_10
+    alt: fond du jardin avec cabanon
 ---
 
-EXCLUSIVITE. A QUINCY-SOUS-SENART. Dans secteur calme et pavillonnaire, Maison 4 pièces comprenant: Entrée/ dégagement desservant un séjour avec cheminée donnant sur un jardin clos de 94 m2 environ, une cuisine indépendante aménagée et équipée, un cellier, un WC indépendant. A l'étage: Palier desservant 3 chambres, une salle de bains avec WC. Cabanon au fond du jardin. Un Box fermé. Double vitrage, volets bois, Toiture 2015. Proche toutes commodités, écoles, centre ville, centre commercial et 3 mn à pied gare (arrêt Boussy-Saint-Antoine). Habitable sans travaux. VENEZ VISITER SANS TARDER !!!
-Référence annonce : 1273
-Consommation énergétique : 157 kWh/m²/an
-Emission de gaz à effet de serre : 33 CO2/m²/an
+Dans un secteur calme et pavillonnaire, maison 4 pièces comprenant : entrée/ dégagement desservant un séjour avec cheminée donnant sur un jardin clos de 94 m² environ, une cuisine indépendante aménagée et équipée, un cellier, un WC indépendant.
+
+À l'étage: palier desservant 3 chambres, une salle de bains avec WC. Cabanon au fond du jardin. Un box fermé. Double vitrage, volets bois, toiture 2015. Proche toutes commodités, écoles, centre ville, centre commercial et 3 mn à pied gare (arrêt Boussy-Saint-Antoine).
+
+Habitable sans travaux. Venez visiter sans tarder !
+
 Les honoraires sont à la charge du vendeur

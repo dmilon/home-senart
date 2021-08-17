@@ -1,18 +1,24 @@
 ---
 layout: property
-title: Appartement 4 pièces 73 m2
+title: Appartement 4 pièces 73 m²
 room: 4
 area: 73
 price: 175_000
 city: Boussy-Saint-Antoine
 type: Appartement
 images:
-  - src: flat_lounge
+  - src: boussy_1
     alt: salon
-  - src: flat_bedroom
-    alt: chambre
-  - src: flat_bathroom
-    alt: salle de bain
+  - src: boussy_2
+    alt: salon
+  - src: boussy_3
+    alt: balcon
+  - src: boussy_4
+    alt: chambre parentale
+  - src: boussy_5
+    alt: première chambre des enfants
+  - src: boussy_6
+    alt: deuxième chambre des enfants
 ---
 
 Joli F4 de 73 m² avec balcon à Boussy Saint Antoine.

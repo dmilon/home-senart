@@ -7,18 +7,28 @@ price: 197_000
 city: Brunoy
 type: Appartement
 images:
-  - src: flat_lounge
+  - src: brunoy_1
+    alt: cuisine
+  - src: brunoy_2
     alt: salon
-  - src: flat_bedroom
+  - src: brunoy_3
     alt: chambre
-  - src: flat_bathroom
+  - src: brunoy_4
+    alt: chambre parentale
+  - src: brunoy_5
+    alt: balcon
+  - src: brunoy_6
+    alt: vue du balcon
+  - src: brunoy_7
+    alt: couloir
+  - src: brunoy_8
+    alt: compteur électrique
+  - src: brunoy_9
     alt: salle de bain
 ---
 
-Appartement Epinay Sous Senart 3 pièce(s) 68 m2
+Appartement 3 pièces à Brunoy
 
-BEL APPARTEMENT  F3 REFAIT AU GOUT DU JOUR AVEC VUE IMPRENABLE !  Comprenant : Entrée, cuisine aménagée ouverte sur séjour avec balcon, dégagement avec rangements, 2 chambres, salle d'eau, wc..  AU pied des Ecoles et à 10 mn à pied de la GARE. COMMERCES A 5 MN.. CAVE ET PARKING PRIVÉ.
-Référence annonce : E1XMZ4
-Consommation énergétique : 327 kWh/m²/an
-Emission de gaz à effet de serre : 76 CO2/m²/an
-Les honoraires sont à la charge du vendeur
+Bel appartement F3 refait au gout du jour avec vue imprenable !
+
+Comprenant : entrée, cuisine aménagée ouverte sur séjour avec balcon, dégagement avec rangements, 2 chambres, salle d'eau, wc. Au pied des écoles et à 10 minutes à pied de la gare. Commerces à 5 minutes. Cave et parking privés.
