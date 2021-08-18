@@ -2,7 +2,7 @@
 layout: property
 title: Terrain à bâtir de 374 m²
 land_area: 374
-price: 185_000
+price: 185 000
 city: Boussy-Saint-Antoine
 type: Terrain
 images:

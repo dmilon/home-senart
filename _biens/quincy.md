@@ -1,10 +1,10 @@
 ---
 layout: property
 title: Maison 4 pièces 80 m²
-room: 4
+rooms: 4
 area: 80
 land_area: 94
-price: 269_000
+price: 269 000
 city: Quincy-sous-Sénart
 type: Maison
 images:

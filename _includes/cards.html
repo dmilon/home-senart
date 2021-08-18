@@ -1,7 +1,7 @@
 <div id="biens" class="row mt-5">
   <h2>Nos biens à vendre</h2>
   <div class="grid">
-    {% for bien in site.biens limit: 4 %}
+    {% for property in site.biens limit: 4 %}
       {% include card.html %}
     {% endfor %}
 </div>

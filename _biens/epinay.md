@@ -1,9 +1,9 @@
 ---
 layout: property
 title: Appartement 3 pièces 67 m²
-room: 3
+rooms: 3
 area: 67
-price: 171_123
+price: 171 123
 city: Epinay-sous-Sénart
 type: Appartement
 images:

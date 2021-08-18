@@ -1,9 +1,9 @@
 ---
 layout: property
-title: Appartement 4 pièces 73 m²
-room: 4
+title: Bel appartement en plein centre ville
+rooms: 4
 area: 73
-price: 175_000
+price: 175 000
 city: Boussy-Saint-Antoine
 type: Appartement
 images:

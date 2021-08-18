@@ -1,9 +1,9 @@
 ---
 layout: property
 title: Appartement 3 pièces 68 m²
-room: 3
+rooms: 3
 area: 68
-price: 197_000
+price: 197 000
 city: Brunoy
 type: Appartement
 images:
