@@ -1,13 +1,14 @@
-<div id="biens" class="row mt-5">
-  <h2>Nos biens à vendre</h2>
+<div id="biens" class="row mb-3">
+  <h2 class="mb-3">Nos biens à vendre</h2>
   <div class="grid">
     {% for property in site.biens limit: 4 %}
       {% include card.html %}
     {% endfor %}
+  </div>
 </div>
 
 <div class="row">
-  </div>
+  <div class="col d-flex justify-content-center">
     <a href="/biens" class="btn btn-primary">En voir plus</a>
   </div>
 </div>

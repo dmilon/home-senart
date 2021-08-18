@@ -1,6 +1,6 @@
 ---
 layout: property
-title: Bel appartement en plein centre ville
+title: Bel appartement en plein centre ville long one agagin
 rooms: 4
 area: 73
 price: 175 000

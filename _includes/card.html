@@ -1,15 +1,12 @@
-<!-- TODO: move style to sass -->
-<a href="{{ bien.url }}" style="text-decoration: none; color: black;">
-  <div class="card-trip">
-    <div class="img-container" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/images/{{ property.images.first.src }}.jpg)">
-      <span class="text-white top-left">{{ property.type }}</span>
-      <span class="text-white top-right">{{ property.rooms }} pièces</span>
-      <span class="text-white bottom-left">{{ property.area }} m²</span>
-      <span class="text-white bottom-right">{{property.price}} €</span>
-    </div>
-    <div class="card-trip-infos">
-      <h2>{{ property.title }}</h2>
-      <p>{{ property.city }}</p>
-    </div>
+<a href="{{ bien.url }}" class="property-card">
+  <div class="image-container" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/assets/images/{{ property.images.first.src }}.jpg)">
+    <span class="text-white top-left">{{ property.type }}</span>
+    <span class="text-white top-right">{{ property.rooms }} pièces</span>
+    <span class="text-white bottom-left">{{ property.area }} m²</span>
+    <span class="text-white bottom-right">{{property.price}} €</span>
+  </div>
+  <div class="property-card-footer">
+    <p class="property-card-title">{{ property.title }}</p>
+    <p class="property-card-city">{{ property.city }}</p>
   </div>
 </a>

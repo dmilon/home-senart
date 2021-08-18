@@ -1,61 +1,67 @@
-.card-trip {
-  overflow: hidden;
+.property-card {
+  text-decoration: none;
+  color: black;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  }
+
+  .image-container {
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .property-card-footer {
+    padding: 10px;
+  }
+
+  .property-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .property-card-city {
+    opacity: .7;
+    margin: 0;
+  }
 }
 
-.card-trip .img-container {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  height: 180px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
 
-.card-trip .top-left {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-.card-trip .top-right {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.card-trip .bottom-left {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
-.card-trip .bottom-right {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
-.card-trip h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  width: 100%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.card-trip p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-trip .card-trip-infos {
-  padding: 10px;
-}
