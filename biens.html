@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<p>Nos biens à la vente</p>
+<h1>Nos biens à la vente</h1>
 
-<div class="container">
-  <div class="row">
-    {% for bien in site.biens %}
-      <div class="col">
-        <a href="{{ bien.url }}">
-          {{ bien.title }}
-        </a>
-      </div>
-    {% endfor %}
+<div class="cards-container">
+  <div class="cards">
+    <div class="grid">
+      {% for property in site.biens limit: 4 %}
+        {% include card.html %}
+      {% endfor %}
+    </div>
   </div>
+
+  <img id="map" src='https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/-122.4241,37.78,14.25/200x600?access_token=pk.eyJ1IjoiZG1pbG9uIiwiYSI6ImNqb2ljdjMybDA3Nmkzb29ndjZwZ3Zqa3YifQ.AZsBo0Bl2X1aKU_ZuDo7Fg'>
 </div>
