@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link {% if page.url == '/'' %}active{% endif %}" aria-current="page" href="/">Accueil</a>
-        <a class="nav-link {% if page.url == '/presentation.html' %}active{% endif %}" href="/presentation">Présentation</a>
+        <a class="nav-link {% if page.url == '/presentation.html' %}active{% endif %}" href="{{ '/presentation' | relative_url }}">Présentation</a>
         <a class="nav-link {% if page.url == '/biens.html' %}active{% endif %}" href="/biens">Nos biens</a>
         <a class="nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="/contact">Contact</a>
       </div>
