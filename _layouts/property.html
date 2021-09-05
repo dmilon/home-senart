@@ -18,7 +18,7 @@ layout: default
         <div class="carousel-inner">
           {% for image in page.images %}
             <div class="carousel-item {% if forloop.first %} active {% endif %}">
-              <img src="/assets/images/{{ image.src }}.jpg" class="d-block w-100" alt="{{ image.alt }}">
+              <img src="{{ site.baseurl }}/assets/images/{{ image.src }}.jpg" class="d-block w-100" alt="{{ image.alt }}">
             </div>
           {% endfor %}
         </div>
